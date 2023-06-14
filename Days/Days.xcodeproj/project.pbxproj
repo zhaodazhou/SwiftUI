@@ -15,6 +15,8 @@
 		2C0AC5922A32B84E0022D28D /* DaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0AC5912A32B84E0022D28D /* DaysUITests.swift */; };
 		2C0AC5942A32B84E0022D28D /* DaysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0AC5932A32B84E0022D28D /* DaysUITestsLaunchTests.swift */; };
 		2C0AC5A42A32C1CF0022D28D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0AC5A32A32C1CF0022D28D /* SwiftUIView.swift */; };
+		2C48824E2A380CD700BDCD78 /* Project2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48824D2A380CD700BDCD78 /* Project2.swift */; };
+		2C4882512A384A3600BDCD78 /* Project3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4882502A384A3600BDCD78 /* Project3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2C0AC5912A32B84E0022D28D /* DaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysUITests.swift; sourceTree = "<group>"; };
 		2C0AC5932A32B84E0022D28D /* DaysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2C0AC5A32A32C1CF0022D28D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		2C48824D2A380CD700BDCD78 /* Project2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2.swift; sourceTree = "<group>"; };
+		2C4882502A384A3600BDCD78 /* Project3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		2C0AC5742A32B84E0022D28D /* Days */ = {
 			isa = PBXGroup;
 			children = (
+				2C48824F2A384A2300BDCD78 /* Project3 */,
+				2C48824C2A380CBD00BDCD78 /* Project2 */,
 				2C0AC5A02A32C1870022D28D /* 16 */,
 				2C0AC5752A32B84E0022D28D /* DaysApp.swift */,
 				2C0AC5772A32B84E0022D28D /* ContentView.swift */,
@@ -138,6 +144,22 @@
 				2C0AC5A32A32C1CF0022D28D /* SwiftUIView.swift */,
 			);
 			path = 16;
+			sourceTree = "<group>";
+		};
+		2C48824C2A380CBD00BDCD78 /* Project2 */ = {
+			isa = PBXGroup;
+			children = (
+				2C48824D2A380CD700BDCD78 /* Project2.swift */,
+			);
+			path = Project2;
+			sourceTree = "<group>";
+		};
+		2C48824F2A384A2300BDCD78 /* Project3 */ = {
+			isa = PBXGroup;
+			children = (
+				2C4882502A384A3600BDCD78 /* Project3.swift */,
+			);
+			path = Project3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +294,8 @@
 			files = (
 				2C0AC5782A32B84E0022D28D /* ContentView.swift in Sources */,
 				2C0AC5762A32B84E0022D28D /* DaysApp.swift in Sources */,
+				2C4882512A384A3600BDCD78 /* Project3.swift in Sources */,
+				2C48824E2A380CD700BDCD78 /* Project2.swift in Sources */,
 				2C0AC5A42A32C1CF0022D28D /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,7 +12,8 @@ struct DaysApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            SwiftUIView()
+//            SwiftUIView()
+            Project3()
         }
     }
 }
